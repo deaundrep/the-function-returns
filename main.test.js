@@ -8,31 +8,44 @@ let sum = 0
 let prod = 0 
 
 function greet (Hi){
-  greeting = "Hello " + Hi;
+
+greeting = "Hello " + Hi;
 
 }
 
 function sumOfTwo (num1,num2){
 
-  sum = num1 + num2;
+sum = num1 + num2;
+
 }
 
 function multiply (num1,num2,num3){
-  prod = num1 * num2 * num3
+prod = num1 * num2 * num3;
 
 }
 
 function sayHi (boy){
-return "Hello " + boy + "!"
+
+return "Hello " + boy + "!";
+
 }
+
 function returnWhatISay (dog){
-  return dog
+
+return dog;
+
 }
-function divide (numb1, numb2){
-return numb1 / numb2
+
+function divide (num1, num2){
+
+return num1 / num2;
+
 }
-function remainder (numb1,numb2){
-return numb1 % numb2
+
+function remainder (num1,num2){
+
+return num1 % num2;
+
 }
 
 
